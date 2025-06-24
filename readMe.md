@@ -1,7 +1,9 @@
-# Exercices Javascript
+<h2>🚀 Exercices Javascript</h2>
 
-## Manipulation du DOM
+- **Manipulation du DOM**
 
-## Gestion JS de Formulaires
+- **Gestion JS de Formulaires**
+  
+- **Constructions de Modals**
 
-## Constructions de Modals
+- **...**
