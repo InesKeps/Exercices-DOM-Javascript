@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(29, 42, 54);
+    display: flex;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+}
+button:hover{
+    background-color: rgb(3, 171, 109);
+}
+.boutons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25%;
+    padding-top: 5%;
+    width: 100%;
+    position: relative;
+}
+
+#black{
+    background-color: black;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity ease .3s;
+}
+
+.menu{
+    flex-direction: column;
+    align-items: flex-end;
+    color: rgb(130, 130, 130);
+    background-color: rgb(18, 18, 18);
+    height: 100dvh;
+    font-size: 20px;
+    gap: 10px;
+    transition: width ease .5s;
+    z-index: 1;
+}
+#menu1{
+    display: flex;
+    width: 0;
+    position: absolute;
+    left: 0;
+}
+#menu2{
+    display: none;
+    width: 20%;
+    position: absolute;
+    left: 0;
+}
+#menu3{
+    display: flex;
+    width: 0;
+    z-index: 2;
+    li{
+        margin-right: 8px;
+    }
+}
+#menu4{
+    display: flex;
+    width: 0;
+    li{
+        margin-right: 8px;
+    }
+}
+#menu5{
+    display: flex;
+    width: 0;
+    position: absolute;
+    left: 0;
+}
+img{
+    width: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding-right: 40%;
+}
+

@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 42, 54);
+    overflow: hidden;
+}
+h1{
+    color: rgb(222, 222, 222);
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 2px rgb(222, 222, 222);
+    width: 60%;
+    padding: 25px;
+}
+img{
+    width: 50px;
+    height: 45px;
+    border-radius: 100%;
+}
+.person{
+    display: flex;
+    gap: 25px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    padding: 10px 10px 30px 10px;
+    position: relative;
+}
+.person2{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.hour{
+    position: absolute;
+    right: 8px;
+    bottom: -8px;
+    color: rgb(153, 153, 153);
+}
+.hour2{
+    left: 8px;
+}

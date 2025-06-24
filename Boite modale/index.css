@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(29, 42, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100dvh;
+    overflow: hidden;
+}
+button{
+    background-color: rgb(97, 97, 97);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(3, 171, 109);
+}
+#box{
+    position: absolute;
+    top: 0;
+    transform: translateY(-200%);
+    transition: all ease .3s;
+    width: 70%;
+}
+.element{
+    background-color: rgb(245, 67, 54);
+    padding: 5px 0 5px 20px;
+    color: rgb(255, 255, 255);
+}
+.corps{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 0 5px 20px;
+}
+img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.25;
+    display: none;
+}

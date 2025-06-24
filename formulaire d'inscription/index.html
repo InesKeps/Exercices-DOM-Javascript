@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+        <form action="#" id="studentform">
+            <div class="head">
+                <h1>S'enregistrer</h1>
+                <p>Merci de remplir ce formulaire pour créer un compte.</p>
+            </div>
+            <div class="main">
+                <label for="email">Messagerie électronique <b> (ex:user@gmail.com)</b></label>
+                <input id="email" type="text" placeholder="Entrez l'adresse e-mail">
+                <span id="emailMsg"></span>
+                <label for="numtel">Numero de telephone <b>(ex:+237xxxxxxxxx)</b></label>
+                <input id="numtel" type="text" placeholder="Entrez le numero de telephone">
+                <span id="telMsg"></span>
+                <label for="pwd">Mot de passe <b>(Au moins 8 caracteres, Doit contenir au moins une lettre maj,une min, un chiffre et un caractere special)</b></label>
+                <input id="pwd" type="text" placeholder="Entrez le mot de passe">
+                <span id="pwdMsg"></span>
+                <label for="pwd2">Répéter le mot de passe</label>
+                <input id="pwd2" type="text" placeholder="Repeat password">
+                <span id="pwdMsg2"></span>
+                <label>
+                    <input type="checkbox" checked id="check" style="margin-bottom:15px"> Se souvenir de moi
+                </label>
+                <p>En créant un compte, vous acceptez nos <a href="#">conditions d’utilisation et de confidentialité.</a></p>
+                <span id="formMsg"></span>
+            </div>
+            <div class="foot">
+                <button id="cancel">Annuler</button>
+                <button id="save">S'enregistrer</button>
+            </div>
+        </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

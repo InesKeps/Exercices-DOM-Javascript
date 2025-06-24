@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    overflow: hidden;
+    background-color: rgb(29, 42, 54);
+}
+.container{
+    width: 60%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+thead{
+    text-align: left;
+}
+th{
+    text-align: center;
+    padding: 20px 20px;
+}
+td{
+    text-align: center;
+    padding: 15px 20px;
+}
+/* .rows{
+    background-color: rgb(242, 242, 242);
+} */
+tr {
+    background-color: rgb(255, 255, 255);
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(242, 242, 242);
+}
+.ex{
+    text-align: left;
+}

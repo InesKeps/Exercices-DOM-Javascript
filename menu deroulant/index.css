@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    overflow: hidden;
+}
+
+.sidenav{
+    padding: 20px 0 0 40px;
+    width: 20%;
+    background-color: rgb(18, 18, 18);
+    color: rgb(211, 208, 208);
+    height: 100dvh;
+}
+
+.main{
+    width: 80%;
+    background-color: rgb(29, 42, 54);
+    height: 100dvh;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+li ~ div > div:last-child{
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 0 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 208, 208);
+    font-size: 18px;
+}
+.menuD{
+    display: flex;
+    gap: 80px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

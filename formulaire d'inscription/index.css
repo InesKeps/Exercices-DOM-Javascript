@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 42, 54);
+}
+form{
+    background-color: rgb(255, 255, 255);
+    color: rgb(179, 178, 178);
+    font-size: 18px;
+    width: 40%;
+}
+.head{
+    border-bottom: solid 2px rgb(224, 224, 224);
+    padding: 5px 15px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 15px;
+}
+.foot{
+    padding: 0 15px 15px 15px;
+    display: flex;
+}
+a{
+    color: rgb(51, 153, 255);
+}
+button{
+    border: none;
+    width: 50%;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+}
+.foot :first-child{
+    background-color: rgb(247, 113, 104);
+}
+.foot :first-child:hover{
+    background-color: rgb(243, 86, 74);
+}
+.foot :last-child{
+    background-color: rgb(120, 194, 123);
+}
+.foot :last-child:hover{
+    background-color: rgb(63, 150, 66);
+}
+input{
+    background-color: rgb(224, 224, 224);
+    border: none;
+    padding: 15px 20px;
+    outline: none;
+}
+label{
+    padding-top: 10px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+}
+b{
+    font-size: 12px;
+    font-weight: normal;
+}
+span{
+    color: red;
+    font-size: 14px;
+}
+.success{
+    color: green;
+}
