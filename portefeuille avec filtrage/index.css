@@ -6,6 +6,9 @@ button{
     color: rgb(228, 225, 225);
     cursor: pointer;
 }
+button:hover{
+    opacity : 0.8;
+}
 .boutons{
     display: flex;
     gap: 20px;
